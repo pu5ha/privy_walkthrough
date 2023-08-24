@@ -23,9 +23,9 @@ Unlock the power of Web 2.5 by integrating Privy's embedded wallets! This tutori
 
 To get started with this tutorial, you'll need to install the Privy authentication library:
 
-\\\bash
+```bash
 npm install @privy-io/react-auth ethers
-\\\
+```
 
 ## Usage
 
