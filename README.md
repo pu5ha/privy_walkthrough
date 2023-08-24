@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Privy Embedded Wallet Tutorial
 
-## Getting Started
+Unlock the power of Web 2.5 by integrating Privy's embedded wallets! This tutorial is your gateway to building a secure and user-friendly experience in your decentralized applications. By following this guide, you'll learn how to create app-specific Web3 wallets, just like friend.tech.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### 1. **Set Up Embedded Wallets**
+   Create embedded wallets within your application using Privy's authentication library. Define the look and feel to match your app's theme.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. **Register & Authenticate Users**
+   Enable user registration and authentication via popular social media accounts like Google, Twitter, Discord, GitHub, and Apple.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. **Link Multiple Social Accounts**
+   Facilitate users in linking multiple social accounts to one Web3 wallet, creating a seamless and versatile user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 4. **Sign Messages & Transactions**
+   Let users sign messages and transactions securely within your application, empowering them with Web3 functionality.
 
-## Learn More
+### 5. **Log Out Safely**
+   Implement a smooth and safe logout process that enhances usability.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To get started with this tutorial, you'll need to install the Privy authentication library:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+\\\bash
+npm install @privy-io/react-auth ethers
+\\\
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Follow the step-by-step guide in the provided code samples to:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Configure Privy's provider with your specific app ID and preferences.
+- Create a login interface with user authentication.
+- Build a robust user interface to display user information, link accounts, sign messages, send transactions, and log out.
+
+## Support & Contribution
+
+If you find a bug or have suggestions for improvements, please open an issue. Contributions are welcome; create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+Special thanks to Privy and friend.tech for inspiring this tutorial. Harness the future of decentralized applications with the power of Web 2.5!
